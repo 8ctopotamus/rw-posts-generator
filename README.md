@@ -1,4 +1,4 @@
-# Generates markup for the [rw-post] shortcode
+# Command line tool that generates markup for [rw-post] shortcode
 
 1) Copy/paste content from word doc into source.txt
 2) run `npm run generate`
