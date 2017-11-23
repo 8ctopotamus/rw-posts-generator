@@ -35,6 +35,7 @@ const processPosts = (data) => {
       else if (line === line.toUpperCase()) {
         return '\n' + line
       } else {
+        line = line.split(' https://realwealthmedia.com')[0]
         // for everything else, wrap the content in shortcode markup
         return `[rw-post img="" link="true"]${line}[/rw-post]`
       }
